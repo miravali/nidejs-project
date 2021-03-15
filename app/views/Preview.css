@@ -1,0 +1,73 @@
+html,
+body {
+    background-color: white;
+    color: black;
+}
+
+strong,b{
+    font-weight: bold;
+}
+
+.pageContainer {
+    background-position: center;
+}
+
+.GridLayout {
+    position: relative;
+    transition: height 200ms ease;
+}
+
+.GridItem {
+    /*border: 1px solid;*/
+    transition: all 200ms ease;
+}
+
+.GridItem .shadow {
+    height: 100%;
+}
+
+.editorDiv {
+    height: 100%;
+    width: 100%;
+}
+
+.bgVideoActive {
+    z-index: -1;
+    position: absolute;
+    left: 50%;
+    margin-left: -50%;
+    min-width: 100%;
+    /*width: 100%;
+    height: auto;*/
+    display: block !important;
+}
+
+.pageBgVideo {
+    display: none;
+}
+
+lqd-image.card {
+    padding: 5px;
+}
+
+.arSymbol
+{
+    font-family: rwmwws;
+    display: inline-block;
+}
+
+.lockEvtClass {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.unLockEvtClass {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+ @media (max-width: 1074px) {
+        .notFoundImg {
+            width: 70%;
+        }
+    }

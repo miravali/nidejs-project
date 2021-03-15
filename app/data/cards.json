@@ -1,0 +1,220 @@
+[{
+    "name": "TBAR_LEFT_BASIC",
+    "cards": [{
+            "type": "TITLE",
+            "display": "COMP_HEADING",
+            "icon": "icon-Heading",
+            "html": "<lqd-title></lqd-title> ",
+            "content": "This is Heading",
+            "size": "270,60"
+        }, {
+            "type": "TEXT",
+            "icon": "icon-TextAlign",
+            "display": "COMP_PARAGRAPH",
+            "html": "<lqd-text></lqd-text> ",
+            "content": "This is Long Text",
+            "size": "450,250",
+            "livePreview": "true"
+
+        }, {
+            "type": "BUTTON",
+            "icon": "icon-Button",
+            "display": "COMP_BUTTON",
+            "html": "<lqd-button></lqd-button> ",
+            "content": "",
+            "size": "105,48",
+            "formatPainter": "false"
+        },
+        {
+            "type": "TABLE",
+            "icon": "icon-Table",
+            "display": "COMP_TABLE",
+            "html": "<lqd-table></lqd-table> ",
+            "content": "This is TEXT QUOTE",
+            "size": "610,200",
+            "livePreview": "true",
+            "formatPainter": "false"
+        }, {
+            "type": "LIST",
+            "icon": "icon-Unordered",
+            "display": "COMP_LIST",
+            "html": "<lqd-list></lqd-list> ",
+            "size": "500,300",
+            "livePreview": "true"
+        },
+        {
+            "type": "DATE",
+            "display": "COMP_DATE",
+            "icon": "icon-Calender",
+            "html": "<lqd-date></lqd-date> ",
+            "content": "Calender",
+            "size": "270,60"
+        }
+    ]
+}, {
+    "name": "TBAR_LEFT_MEDIA",
+    "cards": [{
+        "type": "IMAGE",
+        "icon": "icon-Image",
+        "display": "COMP_IMAGE",
+        "html": "<lqd-image></lqd-image>",
+        "size": "300,300",
+        "formatPainter": "false"
+    }, {
+        "type": "AUDIO",
+        "icon": "icon-Audio",
+        "display": "COMP_AUDIO",
+        "html": "<lqd-audio></lqd-audio>",
+        "size": "31,31",
+        "formatPainter": "false"
+    }, {
+        "type": "VIDEO",
+        "icon": "icon-Video",
+        "display": "COMP_VIDEO",
+        "html": "<lqd-video></lqd-video>",
+        "size": "300,300",
+        "formatPainter": "false"
+    }, {
+        "type": "GALLERY",
+        "icon": "icon-ImageGallery",
+        "display": "COMP_GALLERY",
+        "html": "<lqd-carousel></lqd-carousel> ",
+        "gallaryStyle": {
+            "carousel": "<lqd-carousel></lqd-carousel>",
+            "thumbnails": "<lqd-thumbnails></lqd-thumbnails>",
+            "pagination": "<lqd-pagination></lqd-pagination>",
+            "accordion": "<lqd-accordion-gallary></lqd-accordion-gallary>",
+            "honeycomb": "<lqd-honey-comb></lqd-honey-comb>",
+            "flip": "<lqd-flip></lqd-flip>"
+        },
+        "content": "This is Gallery",
+        "size": "350,300",
+        "formatPainter": "false"
+    }, {
+        "type": "VIDEO_GALLERY",
+        "icon": "icon-VideoGallery",
+        "display": "COMP_VIDEOGALLERY",
+        "html": "<lqd-video-gallery></lqd-video-gallery>",
+        "size": "300,300",
+        "formatPainter": "false"
+    }, {
+        "type": "VIDEOYT",
+        "icon": "icon-Youtube",
+        "display": "COMP_YOUTUBE",
+        "html": "<lqd-video-y-t></lqd-video-y-t>",
+        "size": "300,300",
+        "formatPainter": "false"
+    }]
+}, {
+    "name": "TBAR_LEFT_INTERACTIVE",
+    "cards": [{
+            "type": "QUESTION",
+            "icon": "icon-QuestionMark",
+            "display": "COMP_QUESTION",
+            "html": "<lqd-fillup></lqd-fillup> ",
+            "qType": {
+                "fillup": "<lqd-fillup></lqd-fillup>",
+                "truefalse": "<lqd-truefalse></lqd-truefalse>",
+                "range": "<lqd-range></lqd-range>",
+                "sort": "<lqd-sort></lqd-sort>",
+                "poll": "<lqd-poll></lqd-poll>",
+                "checkbox": "<lqd-checkbox></lqd-checkbox>",
+                "singlechoice": "<lqd-singlechoice></lqd-singlechoice>",
+                "multiplechoice": "<lqd-multiplechoice></lqd-multiplechoice>",
+                "imagemap": "<lqd-imagemap></lqd-imagemap>",
+                "matching": "<lqd-matching></lqd-matching>",
+                "fillupwithoptions": "<lqd-fillupwithoptions></lqd-fillupwithoptions>",
+                "draganddrop": "<lqd-draganddrop></lqd-draganddrop>",
+                "text": "<lqd-text-type-ques></lqd-text-type-ques>",
+                "classify": "<lqd-classify></lqd-classify>",
+                "essay": "<lqd-essay></lqd-essay>",
+                "ivideo": "<lqd-ivideo-type-ques></lqd-ivideo-type-ques>"
+            },
+            "content": "This is Question",
+            "size": "350,300",
+            "formatPainter": "false"
+        }, {
+            "type": "QUIZ",
+            "icon": "icon-quiz",
+            "display": "COMP_QUIZ",
+            "html": "<lqd-quiz></lqd-quiz> ",
+            "size": "350,350",
+            "formatPainter": "false"
+        }, {
+            "type": "PYRAMID",
+            "icon": "icon-Pyramid",
+            "display": "COMP_PYRAMID",
+            "html": "<lqd-pyramid></lqd-pyramid> ",
+            "size": "500,450",
+            "formatPainter": "false"
+
+        }, {
+            "type": "INTERACTIVEVIDEO",
+            "icon": "icon-InteractVideo",
+            "display": "COMP_INTERACTIVE VIDEO",
+            "html": "<lqd-ivapp></lqd-ivapp>",
+            "size": "737,465",
+            "formatPainter": "false",
+            "group": "false"
+
+        }, {
+            "type": "CHARTS",
+            "icon": "icon-BarChart",
+            "display": "COMP_CHART",
+            "html": "<lqd-charts></lqd-charts>",
+            "size": "600,500"
+        },
+        {
+            "type": "TIMELINE",
+            "icon": "icon-TimeLine_event",
+            "display": "COMP_TIMELINE",
+            "html": "<lqd-timeline></lqd-timeline>",
+            "size": "400,400"
+        },
+        {
+            "type": "CHARACTER",
+            "icon": "icon-Character",
+            "display": "COMP_CHARACTER"
+        },
+        {
+            "type": "TIMER",
+            "icon": "icon-timer",
+            "display": "COMP_TIMER",
+            "html": "<lqd-timer></lqd-timer>",
+            "size": "160,60"
+        },
+        {
+            "type": "INPUT",
+            "icon": "icon-Inputbox",
+            "display": "COMP_INPUT",
+            "html": "<lqd-input></lqd-input>",
+            "size": "100,60"
+        },
+        {
+            "type": "SWF",
+            "icon": "icon-SWF",
+            "display": "COMP_SWF",
+            "html": "<lqd-swf></lqd-swf>",
+            "size": "300,300"
+        }
+    ]
+}, {
+    "name": "TBAR_LEFT_LAYOUT",
+    "cards": [{
+        "type": "SLIDER",
+        "icon": "icon-slider",
+        "display": "COMP_SLIDER",
+        "html": "<lqd-slider></lqd-slider> ",
+        "content": "",
+        "size": "400,600",
+        "formatPainter": "false"
+    }, {
+        "type": "ACCORDION",
+        "icon": "icon-accordion",
+        "display": "COMP_ACCORDION",
+        "html": "<lqd-accordion></lqd-accordion> ",
+        "content": "",
+        "size": "400,600",
+        "formatPainter": "false"
+    }]
+}]

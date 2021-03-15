@@ -1,0 +1,24 @@
+<link href='styles.min.css' rel='stylesheet'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-route.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-animate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-aria.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-sanitize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.min.js"></script>
+
+<!-- External -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+<script src="liquid.viewer.min.js"></script>
+
+
+var excludeFiles = {
+  "jquery": "empty:",
+  "angular": "empty:",
+  "angular-route": "empty:",
+  "angular-animate": "empty:",
+  "angular-aria": "empty:",
+  "angular-sanitize": "empty:",
+  "angular-material": "empty:",
+  "d3": "empty:"
+}

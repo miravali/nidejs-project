@@ -1,0 +1,229 @@
+.appLoader,
+.loader,
+.cssload-wraper {
+  position: absolute;
+  top: 0;
+  background-color: #fff !important;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 999;
+}
+
+
+/*Loader Styles*/
+
+.ui-row {
+  display: flex;
+  flex: 1;
+}
+
+.ui-row .ui-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 4%;
+}
+
+.ui-row .ui-col.color {
+  background: #0097E6;
+  /* #2a92c4*/
+}
+
+
+/*** END UI TEMPLATE CODE ***/
+
+
+/*** START DEMO CODE ***/
+
+.ui-col.color .loader .path {
+  stroke: #fff;
+}
+
+.ui-col.color .loader .path-outline {
+  stroke: rgba(0, 0, 0, 0.2);
+}
+
+.ui-col.color .loader {
+  position: relative;
+  margin: 0 auto;
+  width: 150px;
+}
+
+.ui-col.color .loader:before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.ui-col.color .loader .circular {
+  animation: rotate 1.33s linear infinite;
+  height: 100%;
+  transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ui-col.color .loader .path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: dash 1.5s ease-in-out infinite;
+  stroke-linecap: round;
+  stroke: #FFFFFF;
+}
+
+.ui-col.color .loader .path-outline {
+  stroke: rgba(0, 0, 0, 0.1);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -21px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+/* NOOOR LOADER */
+
+.wrapper{
+  position:relative;
+  /*background:#333;*/
+  height:100%;
+}
+
+.profile-main-loader{
+  left: 50% ;
+  margin-left:-50px;
+  position: fixed ;
+  top: 50% ;
+  margin-top: -100px;
+  width: 45px;
+  z-index: 9000 ;
+  background-color: #fff;
+}
+
+.profile-main-loader .loader {
+position: relative;
+margin: 0px auto;
+width: 80px;
+height:80px;
+background-color: transparent;
+}
+.profile-main-loader .loader:before {
+content: '';
+display: block;
+padding-top: 100%;
+}
+
+.circular-loader {
+-webkit-animation: rotate 2s linear infinite;
+        animation: rotate 2s linear infinite;
+height: 100%;
+-webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+        transform-origin: center center;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+margin: auto;
+}
+
+.loader-path {
+stroke-dasharray: 150,200;
+stroke-dashoffset: -10;
+-webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+        animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+stroke-linecap: round;
+}
+
+@-webkit-keyframes rotate {
+100% {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+}
+
+@keyframes rotate {
+100% {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+}
+@-webkit-keyframes dash {
+0% {
+  stroke-dasharray: 1,200;
+  stroke-dashoffset: 0;
+}
+50% {
+  stroke-dasharray: 89,200;
+  stroke-dashoffset: -35;
+}
+100% {
+  stroke-dasharray: 89,200;
+  stroke-dashoffset: -124;
+}
+}
+@keyframes dash {
+0% {
+  stroke-dasharray: 1,200;
+  stroke-dashoffset: 0;
+}
+50% {
+  stroke-dasharray: 89,200;
+  stroke-dashoffset: -35;
+}
+100% {
+  stroke-dasharray: 89,200;
+  stroke-dashoffset: -124;
+}
+}
+@-webkit-keyframes color {
+0% {
+  stroke: #0097E6;
+}
+40% {
+  stroke: #0097E6;
+}
+66% {
+  stroke: #0097E6;
+}
+80%, 90% {
+  stroke: #0097E6;
+}
+}
+@keyframes color {
+0% {
+  stroke: #0097E6;
+}
+40% {
+  stroke: #0097E6;
+}
+66% {
+  stroke: #0097E6;
+}
+80%, 90% {
+  stroke: #0097E6;
+}
+
+}
